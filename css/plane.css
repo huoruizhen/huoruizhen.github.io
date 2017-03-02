@@ -47,6 +47,17 @@ h1>a{
 	color:inherit;
 	text-decoration: none;
 }
+.plane{
+	width:30rem;
+	
+}
+.planetwo{
+	width:8.1rem;
+}
+
+.divtwo{
+	width:5rem;
+}
 section{
 	position: absolute;
 	top: 0;
@@ -181,8 +192,18 @@ section>div:nth-child(3)>img:nth-child(3){
 			transform: rotateZ(360deg);
 		}
 }
-@media screen and (max-width:375px){
+
+@media screen and (max-width:370px){
 	html,body{
-		font-size:12px;
-	}
+		font-size:12px
+}
+	h1{
+	font-size:15px;
+	margin-top:0.6rem;
+	margin-left:0rem;
+	
+}
+	nav>a{
+	margin-left:2rem;
+}
 }
