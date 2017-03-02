@@ -2,7 +2,9 @@ $(function(){
 
 	$("section").height($(window).height());
 	var imgs=$("img");
-	var svgSrc=["./sources/plane.svg","./sources/propeller.svg","./sources/cloud54.svg","./sources/cloud41.svg","./sources/cloud40.svg"]
+	var svgSrc=
+
+["./sources/plane.svg","./sources/propeller.svg","./sources/cloud54.svg","./sources/cloud41.svg","./sources/cloud40.svg"]
 	
 	for(var i=0;i<svgSrc.length;i++){
 		
@@ -21,7 +23,7 @@ $(function(){
 		}
 	}
 	$("section>div:last").on("animationend webkitAnimationEnd",function(){
-			$("section>div:last").css({"top":"82%"})
+			$("section>div:last").css({"bottom":"0%"})
 			
 			$(".divtwo").removeClass("wow");
 			$(".divtwo>img:first").addClass("cloud-one");
