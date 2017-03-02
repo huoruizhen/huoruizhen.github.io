@@ -182,5 +182,7 @@ section>div:nth-child(3)>img:nth-child(3){
 		}
 }
 @media screen and (max-width:375px){
-	font-size:12px;
+	html,body{
+		font-size:12px;
+	}
 }
