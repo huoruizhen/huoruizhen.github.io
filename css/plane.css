@@ -181,6 +181,6 @@ section>div:nth-child(3)>img:nth-child(3){
 			transform: rotateZ(360deg);
 		}
 }
-@media screen and (max-width:689px){
+@media screen and (max-width:375px){
 	font-size:12px;
 }
